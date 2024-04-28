@@ -10,13 +10,13 @@ options.add_argument('--no-sandbox')
 
 driver = webdriver.Chrome(service=service, options=options)
 
-driver.get("https://sk0754321.github.io/CSV304/")
+driver.get("https://punithkosana.github.io/Automation-Testing-with-Selenium/")
 
 # Adding a delay to see the result
 time.sleep(5)
 
 # Assert some condition to verify the result
-assert "Expected Title" in driver.title
+assert "Automation Testing with Selenium" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
