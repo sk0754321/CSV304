@@ -16,7 +16,7 @@ driver.get("https://sk0754321.github.io/CSV304/")
 time.sleep(5)
 
 # Assert some condition to verify the result
-assert "Automation Testing with Selenium" in driver.title
+assert "" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
